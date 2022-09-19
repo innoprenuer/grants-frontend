@@ -12,6 +12,9 @@ const nextConfig = {
 	},
 	env: {
 		NEXT_PUBLIC_IS_TEST: process.env.NEXT_PUBLIC_IS_TEST,
+	},
+	typescript: {
+		ignoreBuildErrors: true
 	}
 }
 
